@@ -1,0 +1,86 @@
+﻿Version     0.0
+Platform    uLCD-220RD-AR-P
+PlatRes     220x220
+Depends
+end
+Options
+    Arduino_Basic
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  0
+    DestBank                     0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Ellipse
+    Name                         Ellipse1
+    Alias                        Ellipse1
+    Color                        RED
+    Filled                       Yes
+    X                            116
+    Xrad                         40
+    Y                            96
+    Yrad                         20
+end
+Line
+    Name                         Line1
+    Alias                        Line1
+    Color                        SPRINGGREEN
+    Pattern                      'Dash Dot'
+    X1                           25
+    X2                           75
+    Y1                           123
+    Y2                           158
+end
+Slider
+    Name                         Slider1
+    Alias                        Slider1
+    Color                        TURQUOISE
+    Height                       20
+    Left                         84
+    Mode                         Raised
+    Outlined                     No
+    OutlineColor                 WHITE
+    Pattern                      Fine
+    Scale                        100
+    ThumbColor                   WHITE
+    Top                          120
+    Value                        40
+    Width                        94
+end
+Triangle
+    Name                         Triangle1
+    Alias                        Triangle1
+    Color                        0x20BAE0
+    Filled                       Yes
+    Outlined                     No
+    OutlineColor                 WHITE
+    Pattern                      Solid
+    X1                           153
+    X2                           116
+    X3                           191
+    Y1                           52
+    Y2                           105
+    Y3                           105
+end
